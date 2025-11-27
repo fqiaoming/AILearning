@@ -1,0 +1,40 @@
+# Python虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# Python编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 环境变量文件
+.env
+.env.local
+
+# IDE配置（保留.idea是为了共享PyCharm配置）
+.vscode/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 测试和覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.bak
+
+.idea
+
