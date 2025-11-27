@@ -6,9 +6,9 @@
 
 课程内容有任何问题的话，任何错误希望大家多多包涵并告知作者，看到后会第一时间修正！感谢感谢！！！
 
-有同样想法的小伙伴，**欢迎加入一起共创课程内容**！
+有同样想法的小伙伴，欢迎私信我一起探讨，**更欢迎加入一起共创课程内容**！
 
-![db797f2979f47515671abddadd0a8c44](https://github.com/user-attachments/assets/f3937e5c-f8fe-4f63-b775-caec9e34db04)
+<img width="637" height="643" alt="image" src="https://github.com/user-attachments/assets/319cadb4-3122-4af9-bb0f-702d1aeb618d" />
 
 # AI大模型应用开发 - 从入门到精通完整路线
 
