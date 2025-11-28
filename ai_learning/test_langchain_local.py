@@ -12,7 +12,7 @@ load_dotenv()
 llm = ChatOpenAI(
     base_url=os.getenv("LOCAL_LLM_BASE_URL", "http://localhost:1234/v1"),
     api_key=os.getenv("LOCAL_LLM_API_KEY", "lm-studio"),
-    moel=os.getenv("LOCAL_LLM_MODEL", "qwen2.5-7b-instruct"),
+    model=os.getenv("LOCAL_LLM_MODEL", "qwen2.5-7b-instruct"),
     temperature=0.7
 )
 
