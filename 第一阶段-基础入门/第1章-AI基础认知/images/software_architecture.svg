@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400">
+  <!-- 背景 -->
+  <rect width="700" height="400" fill="#0f0f23"/>
+  
+  <!-- 标题 -->
+  <text x="350" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">AI应用系统架构</text>
+  
+  <!-- 用户层 -->
+  <rect x="250" y="55" width="200" height="45" rx="8" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="350" y="83" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">👤 用户界面层</text>
+  
+  <!-- 箭头 -->
+  <path d="M 350 100 L 350 120" stroke="#64b5f6" stroke-width="2" fill="none"/>
+  <polygon points="345,118 350,128 355,118" fill="#64b5f6"/>
+  
+  <!-- API层 -->
+  <rect x="180" y="130" width="340" height="50" rx="8" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="350" y="160" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🔌 API网关 / 负载均衡</text>
+  
+  <!-- 箭头 -->
+  <path d="M 350 180 L 350 200" stroke="#64b5f6" stroke-width="2" fill="none"/>
+  <polygon points="345,198 350,208 355,198" fill="#64b5f6"/>
+  
+  <!-- 应用服务层 -->
+  <rect x="50" y="210" width="600" height="80" rx="10" fill="#16213e" stroke="#667eea" stroke-width="2"/>
+  <text x="350" y="235" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🛠️ 应用服务层</text>
+  
+  <rect x="70" y="245" width="120" height="35" rx="5" fill="#2d3436"/>
+  <text x="130" y="268" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">RAG检索</text>
+  
+  <rect x="210" y="245" width="120" height="35" rx="5" fill="#2d3436"/>
+  <text x="270" y="268" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Agent智能体</text>
+  
+  <rect x="350" y="245" width="120" height="35" rx="5" fill="#2d3436"/>
+  <text x="410" y="268" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">对话管理</text>
+  
+  <rect x="490" y="245" width="140" height="35" rx="5" fill="#2d3436"/>
+  <text x="560" y="268" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">业务逻辑</text>
+  
+  <!-- 箭头 -->
+  <path d="M 350 290 L 350 310" stroke="#64b5f6" stroke-width="2" fill="none"/>
+  <polygon points="345,308 350,318 355,308" fill="#64b5f6"/>
+  
+  <!-- 基础设施层 -->
+  <rect x="50" y="320" width="600" height="70" rx="10" fill="#16213e" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="350" y="345" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📦 基础设施层</text>
+  
+  <rect x="70" y="355" width="100" height="28" rx="5" fill="#2d3436"/>
+  <text x="120" y="374" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">向量数据库</text>
+  
+  <rect x="185" y="355" width="100" height="28" rx="5" fill="#2d3436"/>
+  <text x="235" y="374" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">大模型API</text>
+  
+  <rect x="300" y="355" width="100" height="28" rx="5" fill="#2d3436"/>
+  <text x="350" y="374" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">缓存服务</text>
+  
+  <rect x="415" y="355" width="100" height="28" rx="5" fill="#2d3436"/>
+  <text x="465" y="374" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">消息队列</text>
+  
+  <rect x="530" y="355" width="100" height="28" rx="5" fill="#2d3436"/>
+  <text x="580" y="374" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">监控日志</text>
+</svg>
+

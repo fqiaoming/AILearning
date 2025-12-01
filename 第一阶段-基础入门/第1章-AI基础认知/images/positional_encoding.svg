@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400">
+  <defs>
+    <linearGradient id="posGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="700" height="400" fill="#0f0f23"/>
+  
+  <!-- 标题 -->
+  <text x="350" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">位置编码 (Positional Encoding)</text>
+  
+  <!-- 左侧：词嵌入 -->
+  <text x="120" y="70" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">词嵌入向量</text>
+  
+  <rect x="50" y="85" width="140" height="35" rx="5" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="120" y="108" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">"我" → [0.1, 0.5, ...]</text>
+  
+  <rect x="50" y="130" width="140" height="35" rx="5" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="120" y="153" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">"喜欢" → [0.3, 0.2, ...]</text>
+  
+  <rect x="50" y="175" width="140" height="35" rx="5" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="120" y="198" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">"AI" → [0.8, 0.1, ...]</text>
+  
+  <!-- 加号 -->
+  <text x="220" y="155" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="bold">+</text>
+  
+  <!-- 中间：位置编码 -->
+  <text x="340" y="70" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">位置编码</text>
+  
+  <rect x="260" y="85" width="160" height="35" rx="5" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="340" y="108" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">pos=0 → [sin, cos, ...]</text>
+  
+  <rect x="260" y="130" width="160" height="35" rx="5" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="340" y="153" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">pos=1 → [sin, cos, ...]</text>
+  
+  <rect x="260" y="175" width="160" height="35" rx="5" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="340" y="198" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">pos=2 → [sin, cos, ...]</text>
+  
+  <!-- 等号 -->
+  <text x="450" y="155" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="bold">=</text>
+  
+  <!-- 右侧：最终输入 -->
+  <text x="580" y="70" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Transformer输入</text>
+  
+  <rect x="490" y="85" width="180" height="35" rx="5" fill="url(#posGrad1)"/>
+  <text x="580" y="108" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">"我"(位置0)</text>
+  
+  <rect x="490" y="130" width="180" height="35" rx="5" fill="url(#posGrad1)"/>
+  <text x="580" y="153" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">"喜欢"(位置1)</text>
+  
+  <rect x="490" y="175" width="180" height="35" rx="5" fill="url(#posGrad1)"/>
+  <text x="580" y="198" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12">"AI"(位置2)</text>
+  
+  <!-- 公式区域 -->
+  <rect x="50" y="240" width="600" height="100" rx="10" fill="#1a1a2e"/>
+  <text x="350" y="270" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">位置编码公式</text>
+  
+  <text x="350" y="300" text-anchor="middle" fill="#4ecdc4" font-family="Courier New, monospace" font-size="14">PE(pos, 2i) = sin(pos / 10000^(2i/d_model))</text>
+  <text x="350" y="325" text-anchor="middle" fill="#ffd93d" font-family="Courier New, monospace" font-size="14">PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model))</text>
+  
+  <!-- 底部说明 -->
+  <rect x="50" y="355" width="600" height="35" rx="5" fill="#16213e"/>
+  <text x="350" y="378" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="11">位置编码让Transformer感知序列中词的顺序，使用正弦/余弦函数确保不同位置有唯一编码</text>
+</svg>
+

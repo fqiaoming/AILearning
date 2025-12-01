@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <marker id="arrowTrain" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64b5f6"/>
+    </marker>
+    <linearGradient id="dataGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ecdc4"/>
+      <stop offset="100%" style="stop-color:#26a69a"/>
+    </linearGradient>
+    <linearGradient id="modelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="400" fill="#0f0f23"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="bold">大模型训练流程</text>
+  
+  <!-- 步骤1: 数据收集 -->
+  <rect x="30" y="70" width="140" height="90" rx="10" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="100" y="95" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="12" font-weight="bold">📚 数据收集</text>
+  <text x="100" y="115" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">• 网页文本</text>
+  <text x="100" y="130" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">• 书籍文档</text>
+  <text x="100" y="145" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">• 代码仓库</text>
+  
+  <line x1="170" y1="115" x2="195" y2="115" stroke="#64b5f6" stroke-width="2" marker-end="url(#arrowTrain)"/>
+  
+  <!-- 步骤2: 数据预处理 -->
+  <rect x="205" y="70" width="140" height="90" rx="10" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="275" y="95" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="12" font-weight="bold">🔧 数据预处理</text>
+  <text x="275" y="115" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">• 清洗去重</text>
+  <text x="275" y="130" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">• 分词处理</text>
+  <text x="275" y="145" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">• 格式转换</text>
+  
+  <line x1="345" y1="115" x2="370" y2="115" stroke="#64b5f6" stroke-width="2" marker-end="url(#arrowTrain)"/>
+  
+  <!-- 步骤3: 预训练 -->
+  <rect x="380" y="70" width="140" height="90" rx="10" fill="url(#modelGrad)"/>
+  <text x="450" y="95" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="bold">🧠 预训练</text>
+  <text x="450" y="115" text-anchor="middle" fill="#e0e0e0" font-family="Arial, sans-serif" font-size="10">• 自监督学习</text>
+  <text x="450" y="130" text-anchor="middle" fill="#e0e0e0" font-family="Arial, sans-serif" font-size="10">• 下一词预测</text>
+  <text x="450" y="145" text-anchor="middle" fill="#e0e0e0" font-family="Arial, sans-serif" font-size="10">• 大规模计算</text>
+  
+  <line x1="520" y1="115" x2="545" y2="115" stroke="#64b5f6" stroke-width="2" marker-end="url(#arrowTrain)"/>
+  
+  <!-- 步骤4: 微调 -->
+  <rect x="555" y="70" width="140" height="90" rx="10" fill="#1a1a2e" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="625" y="95" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="12" font-weight="bold">🎯 微调/对齐</text>
+  <text x="625" y="115" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">• SFT监督微调</text>
+  <text x="625" y="130" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">• RLHF人类反馈</text>
+  <text x="625" y="145" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">• DPO直接优化</text>
+  
+  <!-- 下面的训练循环 -->
+  <rect x="200" y="200" width="400" height="130" rx="15" fill="#1a1a2e" stroke="#64b5f6" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="400" y="225" text-anchor="middle" fill="#64b5f6" font-family="Arial, sans-serif" font-size="14" font-weight="bold">训练循环 (Training Loop)</text>
+  
+  <!-- 循环内部 -->
+  <rect x="220" y="240" width="80" height="40" rx="5" fill="#2d3436"/>
+  <text x="260" y="265" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="10">前向传播</text>
+  
+  <line x1="300" y1="260" x2="320" y2="260" stroke="#ffffff" stroke-width="1"/>
+  <text x="330" y="265" fill="#ffffff" font-family="Arial, sans-serif" font-size="16">→</text>
+  
+  <rect x="340" y="240" width="80" height="40" rx="5" fill="#2d3436"/>
+  <text x="380" y="265" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="10">计算Loss</text>
+  
+  <line x1="420" y1="260" x2="440" y2="260" stroke="#ffffff" stroke-width="1"/>
+  <text x="450" y="265" fill="#ffffff" font-family="Arial, sans-serif" font-size="16">→</text>
+  
+  <rect x="460" y="240" width="80" height="40" rx="5" fill="#2d3436"/>
+  <text x="500" y="265" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="10">反向传播</text>
+  
+  <!-- 更新箭头 -->
+  <path d="M 500 280 L 500 300 L 260 300 L 260 280" fill="none" stroke="#81c784" stroke-width="2" marker-end="url(#arrowTrain)"/>
+  <text x="380" y="315" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">更新参数 (梯度下降)</text>
+  
+  <!-- 底部说明 -->
+  <rect x="50" y="350" width="700" height="40" rx="5" fill="#16213e"/>
+  <text x="400" y="375" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="12">💡 训练大模型需要海量数据、大量GPU算力和数周甚至数月的时间 | GPT-4估计训练成本超过1亿美元</text>
+</svg>
+

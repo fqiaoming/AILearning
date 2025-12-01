@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <defs>
+    <linearGradient id="layer1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b6b"/>
+      <stop offset="100%" style="stop-color:#ee5a5a"/>
+    </linearGradient>
+    <linearGradient id="layer2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffd93d"/>
+      <stop offset="100%" style="stop-color:#f9ca24"/>
+    </linearGradient>
+    <linearGradient id="layer3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6bcb77"/>
+      <stop offset="100%" style="stop-color:#4ecdc4"/>
+    </linearGradient>
+    <linearGradient id="layer4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4d96ff"/>
+      <stop offset="100%" style="stop-color:#6c5ce7"/>
+    </linearGradient>
+    <linearGradient id="layer5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a55eea"/>
+      <stop offset="100%" style="stop-color:#8854d0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="900" height="600" fill="#0d1117"/>
+  
+  <!-- 标题 -->
+  <text x="450" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="bold">AI 应用开发技术栈全景图</text>
+  
+  <!-- 第1层: 基础层 -->
+  <rect x="50" y="70" width="800" height="85" rx="10" fill="url(#layer1)" opacity="0.9"/>
+  <text x="450" y="95" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">🐍 基础层 - 编程语言与环境</text>
+  
+  <rect x="70" y="105" width="90" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="115" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Python</text>
+  
+  <rect x="170" y="105" width="90" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="215" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Jupyter</text>
+  
+  <rect x="270" y="105" width="90" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="315" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">VS Code</text>
+  
+  <rect x="370" y="105" width="90" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="415" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Git/GitHub</text>
+  
+  <rect x="470" y="105" width="90" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="515" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Docker</text>
+  
+  <rect x="570" y="105" width="90" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="615" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Linux</text>
+  
+  <rect x="670" y="105" width="90" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="715" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">虚拟环境</text>
+  
+  <!-- 第2层: API层 -->
+  <rect x="50" y="165" width="800" height="85" rx="10" fill="url(#layer2)" opacity="0.9"/>
+  <text x="450" y="190" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="16" font-weight="bold">🔌 API层 - 大模型接口</text>
+  
+  <rect x="70" y="200" width="110" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="125" y="225" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">OpenAI API</text>
+  
+  <rect x="190" y="200" width="110" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="245" y="225" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Claude API</text>
+  
+  <rect x="310" y="200" width="110" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="365" y="225" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">通义千问</text>
+  
+  <rect x="430" y="200" width="110" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="485" y="225" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">文心一言</text>
+  
+  <rect x="550" y="200" width="110" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="605" y="225" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">智谱GLM</text>
+  
+  <rect x="670" y="200" width="110" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="725" y="225" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">本地模型</text>
+  
+  <!-- 第3层: 开发框架层 -->
+  <rect x="50" y="260" width="800" height="85" rx="10" fill="url(#layer3)" opacity="0.9"/>
+  <text x="450" y="285" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">🛠️ 框架层 - 开发工具</text>
+  
+  <rect x="70" y="295" width="100" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="120" y="320" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">LangChain</text>
+  
+  <rect x="180" y="295" width="100" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="230" y="320" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">LlamaIndex</text>
+  
+  <rect x="290" y="295" width="100" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="340" y="320" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Semantic K</text>
+  
+  <rect x="400" y="295" width="100" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="450" y="320" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">AutoGPT</text>
+  
+  <rect x="510" y="295" width="100" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="560" y="320" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Dify</text>
+  
+  <rect x="620" y="295" width="100" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="670" y="320" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">FastGPT</text>
+  
+  <rect x="730" y="295" width="100" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="780" y="320" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Flowise</text>
+  
+  <!-- 第4层: 数据层 -->
+  <rect x="50" y="355" width="800" height="85" rx="10" fill="url(#layer4)" opacity="0.9"/>
+  <text x="450" y="380" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">📊 数据层 - 向量数据库与存储</text>
+  
+  <rect x="80" y="390" width="95" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="127" y="415" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Chroma</text>
+  
+  <rect x="185" y="390" width="95" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="232" y="415" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Pinecone</text>
+  
+  <rect x="290" y="390" width="95" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="337" y="415" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Milvus</text>
+  
+  <rect x="395" y="390" width="95" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="442" y="415" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Weaviate</text>
+  
+  <rect x="500" y="390" width="95" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="547" y="415" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Qdrant</text>
+  
+  <rect x="605" y="390" width="95" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="652" y="415" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">FAISS</text>
+  
+  <rect x="710" y="390" width="95" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="757" y="415" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">PostgreSQL</text>
+  
+  <!-- 第5层: 应用层 -->
+  <rect x="50" y="450" width="800" height="85" rx="10" fill="url(#layer5)" opacity="0.9"/>
+  <text x="450" y="475" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">🚀 应用层 - 部署与服务</text>
+  
+  <rect x="80" y="485" width="110" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="135" y="510" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">FastAPI</text>
+  
+  <rect x="200" y="485" width="110" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="255" y="510" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Gradio</text>
+  
+  <rect x="320" y="485" width="110" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="375" y="510" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Streamlit</text>
+  
+  <rect x="440" y="485" width="110" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="495" y="510" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">React/Vue</text>
+  
+  <rect x="560" y="485" width="110" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="615" y="510" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Kubernetes</text>
+  
+  <rect x="680" y="485" width="110" height="40" rx="5" fill="#1a1a2e"/>
+  <text x="735" y="510" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">云服务</text>
+  
+  <!-- 侧边标注 -->
+  <text x="870" y="120" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="11" transform="rotate(90, 870, 120)">必备</text>
+  <text x="870" y="210" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="11" transform="rotate(90, 870, 210)">核心</text>
+  <text x="870" y="300" text-anchor="middle" fill="#6bcb77" font-family="Arial, sans-serif" font-size="11" transform="rotate(90, 870, 300)">重要</text>
+  <text x="870" y="390" text-anchor="middle" fill="#4d96ff" font-family="Arial, sans-serif" font-size="11" transform="rotate(90, 870, 390)">进阶</text>
+  <text x="870" y="490" text-anchor="middle" fill="#a55eea" font-family="Arial, sans-serif" font-size="11" transform="rotate(90, 870, 490)">高级</text>
+  
+  <!-- 底部说明 -->
+  <rect x="50" y="545" width="800" height="45" rx="5" fill="#1a1a2e"/>
+  <text x="450" y="573" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="12">💡 建议学习顺序：从下到上逐层学习，先掌握基础再逐步深入 | 本课程覆盖所有核心技术栈</text>
+</svg>
+
