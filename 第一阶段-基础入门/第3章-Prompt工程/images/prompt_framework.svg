@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <rect width="800" height="400" fill="#0f0f23"/>
+  <text x="400" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Prompt 设计框架对比</text>
+  
+  <!-- CRISPE 框架 -->
+  <rect x="30" y="55" width="230" height="320" rx="10" fill="#1a1a2e" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="145" y="85" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="16" font-weight="bold">CRISPE 框架</text>
+  
+  <rect x="45" y="100" width="200" height="35" rx="5" fill="#2d3436"/>
+  <text x="145" y="122" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="11">C - Capacity 能力角色</text>
+  
+  <rect x="45" y="145" width="200" height="35" rx="5" fill="#2d3436"/>
+  <text x="145" y="167" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="11">R - Role 具体身份</text>
+  
+  <rect x="45" y="190" width="200" height="35" rx="5" fill="#2d3436"/>
+  <text x="145" y="212" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="11">I - Insight 背景信息</text>
+  
+  <rect x="45" y="235" width="200" height="35" rx="5" fill="#2d3436"/>
+  <text x="145" y="257" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="11">S - Statement 任务描述</text>
+  
+  <rect x="45" y="280" width="200" height="35" rx="5" fill="#2d3436"/>
+  <text x="145" y="302" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="11">P - Personality 风格</text>
+  
+  <rect x="45" y="325" width="200" height="35" rx="5" fill="#2d3436"/>
+  <text x="145" y="347" text-anchor="middle" fill="#f5576c" font-family="Arial, sans-serif" font-size="11">E - Experiment 实验迭代</text>
+  
+  <!-- CO-STAR 框架 -->
+  <rect x="285" y="55" width="230" height="320" rx="10" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="400" y="85" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="16" font-weight="bold">CO-STAR 框架</text>
+  
+  <rect x="300" y="100" width="200" height="35" rx="5" fill="#2d3436"/>
+  <text x="400" y="122" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="11">C - Context 上下文</text>
+  
+  <rect x="300" y="145" width="200" height="35" rx="5" fill="#2d3436"/>
+  <text x="400" y="167" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="11">O - Objective 目标</text>
+  
+  <rect x="300" y="190" width="200" height="35" rx="5" fill="#2d3436"/>
+  <text x="400" y="212" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="11">S - Style 风格</text>
+  
+  <rect x="300" y="235" width="200" height="35" rx="5" fill="#2d3436"/>
+  <text x="400" y="257" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="11">T - Tone 语气</text>
+  
+  <rect x="300" y="280" width="200" height="35" rx="5" fill="#2d3436"/>
+  <text x="400" y="302" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="11">A - Audience 受众</text>
+  
+  <rect x="300" y="325" width="200" height="35" rx="5" fill="#2d3436"/>
+  <text x="400" y="347" text-anchor="middle" fill="#f5576c" font-family="Arial, sans-serif" font-size="11">R - Response 响应格式</text>
+  
+  <!-- Few-shot / CoT -->
+  <rect x="540" y="55" width="230" height="320" rx="10" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="655" y="85" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="16" font-weight="bold">高级技巧</text>
+  
+  <rect x="555" y="100" width="200" height="70" rx="5" fill="#2d3436"/>
+  <text x="655" y="125" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Few-shot Learning</text>
+  <text x="655" y="150" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">提供示例引导模型</text>
+  
+  <rect x="555" y="185" width="200" height="70" rx="5" fill="#2d3436"/>
+  <text x="655" y="210" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Chain-of-Thought</text>
+  <text x="655" y="235" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">思维链推理</text>
+  
+  <rect x="555" y="270" width="200" height="70" rx="5" fill="#2d3436"/>
+  <text x="655" y="295" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Self-Consistency</text>
+  <text x="655" y="320" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">多路径验证</text>
+</svg>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" width="700" height="380">
+  <rect width="700" height="380" fill="#0f0f23"/>
+  <text x="350" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">LM Studio 本地模型部署</text>
+  
+  <!-- LM Studio主界面 -->
+  <rect x="50" y="60" width="280" height="160" rx="10" fill="#16213e" stroke="#667eea" stroke-width="2"/>
+  <text x="190" y="90" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🖥️ LM Studio</text>
+  <rect x="70" y="105" width="100" height="25" rx="3" fill="#2d3436"/>
+  <text x="120" y="122" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">模型下载</text>
+  <rect x="180" y="105" width="100" height="25" rx="3" fill="#2d3436"/>
+  <text x="230" y="122" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Chat对话</text>
+  <rect x="70" y="140" width="100" height="25" rx="3" fill="#4ecdc4"/>
+  <text x="120" y="157" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">本地服务器</text>
+  <rect x="180" y="140" width="100" height="25" rx="3" fill="#2d3436"/>
+  <text x="230" y="157" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">模型设置</text>
+  <text x="190" y="200" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">支持 GGUF/GGML 格式</text>
+  
+  <!-- 箭头 -->
+  <path d="M 330 140 L 370 140" stroke="#64b5f6" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64b5f6"/>
+    </marker>
+  </defs>
+  
+  <!-- API服务 -->
+  <rect x="370" y="60" width="280" height="160" rx="10" fill="#16213e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="510" y="90" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🔌 本地 API 服务</text>
+  <text x="510" y="120" text-anchor="middle" fill="#ffd93d" font-family="Courier New, monospace" font-size="12">http://localhost:1234/v1</text>
+  <text x="510" y="150" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">✅ OpenAI 兼容接口</text>
+  <text x="510" y="175" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">✅ 支持 Streaming</text>
+  <text x="510" y="200" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">✅ 无需 API Key</text>
+  
+  <!-- 推荐模型 -->
+  <rect x="50" y="240" width="600" height="120" rx="10" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="350" y="270" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🌟 推荐本地模型</text>
+  
+  <rect x="70" y="285" width="130" height="55" rx="5" fill="#2d3436"/>
+  <text x="135" y="305" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="11">Qwen2.5</text>
+  <text x="135" y="325" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">7B/14B/32B</text>
+  
+  <rect x="215" y="285" width="130" height="55" rx="5" fill="#2d3436"/>
+  <text x="280" y="305" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="11">Llama 3.2</text>
+  <text x="280" y="325" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">1B/3B/8B</text>
+  
+  <rect x="360" y="285" width="130" height="55" rx="5" fill="#2d3436"/>
+  <text x="425" y="305" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="11">Mistral</text>
+  <text x="425" y="325" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">7B/Nemo</text>
+  
+  <rect x="505" y="285" width="130" height="55" rx="5" fill="#2d3436"/>
+  <text x="570" y="305" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="11">DeepSeek</text>
+  <text x="570" y="325" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">Coder/V2</text>
+</svg>
+

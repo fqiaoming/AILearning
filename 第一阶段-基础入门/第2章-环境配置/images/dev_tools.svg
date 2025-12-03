@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 350" width="700" height="350">
+  <rect width="700" height="350" fill="#0f0f23"/>
+  <text x="350" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">AI开发工具链</text>
+  
+  <!-- IDE -->
+  <rect x="50" y="60" width="180" height="120" rx="10" fill="#1a1a2e" stroke="#667eea" stroke-width="2"/>
+  <text x="140" y="90" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🖥️ IDE</text>
+  <text x="140" y="115" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">VS Code</text>
+  <text x="140" y="135" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">PyCharm</text>
+  <text x="140" y="155" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Cursor AI</text>
+  
+  <!-- Jupyter -->
+  <rect x="260" y="60" width="180" height="120" rx="10" fill="#1a1a2e" stroke="#f5576c" stroke-width="2"/>
+  <text x="350" y="90" text-anchor="middle" fill="#f5576c" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📓 Notebook</text>
+  <text x="350" y="115" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Jupyter Lab</text>
+  <text x="350" y="135" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Google Colab</text>
+  <text x="350" y="155" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Kaggle Notebook</text>
+  
+  <!-- 终端 -->
+  <rect x="470" y="60" width="180" height="120" rx="10" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="560" y="90" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">⌨️ 终端</text>
+  <text x="560" y="115" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Terminal / iTerm2</text>
+  <text x="560" y="135" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Oh My Zsh</text>
+  <text x="560" y="155" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">tmux</text>
+  
+  <!-- 版本控制 -->
+  <rect x="50" y="200" width="180" height="120" rx="10" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="140" y="230" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📂 版本控制</text>
+  <text x="140" y="255" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Git</text>
+  <text x="140" y="275" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">GitHub / GitLab</text>
+  <text x="140" y="295" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Git LFS (大文件)</text>
+  
+  <!-- API工具 -->
+  <rect x="260" y="200" width="180" height="120" rx="10" fill="#1a1a2e" stroke="#81c784" stroke-width="2"/>
+  <text x="350" y="230" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🔌 API调试</text>
+  <text x="350" y="255" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Postman</text>
+  <text x="350" y="275" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">curl / httpie</text>
+  <text x="350" y="295" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Insomnia</text>
+  
+  <!-- 容器化 -->
+  <rect x="470" y="200" width="180" height="120" rx="10" fill="#1a1a2e" stroke="#64b5f6" stroke-width="2"/>
+  <text x="560" y="230" text-anchor="middle" fill="#64b5f6" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🐳 容器化</text>
+  <text x="560" y="255" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Docker</text>
+  <text x="560" y="275" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Docker Compose</text>
+  <text x="560" y="295" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">Kubernetes</text>
+</svg>
+

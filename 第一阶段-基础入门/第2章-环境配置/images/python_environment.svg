@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400">
+  <rect width="700" height="400" fill="#0f0f23"/>
+  <text x="350" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Python 开发环境架构</text>
+  
+  <!-- 系统层 -->
+  <rect x="50" y="320" width="600" height="60" rx="8" fill="#1a1a2e" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="350" y="355" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="14" font-weight="bold">💻 操作系统 (macOS / Windows / Linux)</text>
+  
+  <!-- Python解释器层 -->
+  <rect x="50" y="240" width="600" height="60" rx="8" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="350" y="275" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🐍 Python 解释器 (推荐 3.10-3.12)</text>
+  
+  <!-- 虚拟环境层 -->
+  <rect x="50" y="160" width="600" height="60" rx="8" fill="#16213e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="200" y="195" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="13" font-weight="bold">📦 venv / .venv</text>
+  <text x="400" y="195" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="13" font-weight="bold">🔧 conda</text>
+  <text x="550" y="195" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="13" font-weight="bold">⚡ pyenv</text>
+  
+  <!-- 包管理层 -->
+  <rect x="50" y="80" width="600" height="60" rx="8" fill="#16213e" stroke="#667eea" stroke-width="2"/>
+  <text x="150" y="115" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="13" font-weight="bold">pip</text>
+  <text x="280" y="115" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="13" font-weight="bold">pip-tools</text>
+  <text x="420" y="115" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="13" font-weight="bold">poetry</text>
+  <text x="560" y="115" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="13" font-weight="bold">uv</text>
+  
+  <!-- 箭头 -->
+  <path d="M 350 140 L 350 160" stroke="#64b5f6" stroke-width="2" fill="none"/>
+  <path d="M 350 220 L 350 240" stroke="#64b5f6" stroke-width="2" fill="none"/>
+  <path d="M 350 300 L 350 320" stroke="#64b5f6" stroke-width="2" fill="none"/>
+  
+  <!-- 右侧说明 -->
+  <rect x="670" y="80" width="20" height="60" rx="3" fill="#667eea"/>
+  <rect x="670" y="160" width="20" height="60" rx="3" fill="#4ecdc4"/>
+  <rect x="670" y="240" width="20" height="60" rx="3" fill="#ffd93d"/>
+  <rect x="670" y="320" width="20" height="60" rx="3" fill="#ff6b6b"/>
+</svg>
+
