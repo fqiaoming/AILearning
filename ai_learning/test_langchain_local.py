@@ -24,9 +24,12 @@ messages = [
 
 print("正在调用本地模型...")
 print(f"LangChain版本: {__import__('langchain').__version__}")
-response = llm.invoke(messages)
+# response = llm.invoke(messages)
+#
+# print("\n" + "="*50)
+# print("AI回答：")
+# print("="*50)
+# print(response.content)
 
-print("\n" + "="*50)
-print("AI回答：")
-print("="*50)
-print(response.content)
+for trunk in llm.stream(messages):
+    print(trunk.content)
