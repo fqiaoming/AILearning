@@ -19,7 +19,9 @@ def get_client():
     """
     if os.getenv("OPENAI_API_KEY"):
         print("使用：OpenAI API")
-        return OpenAI()
+        return OpenAI(
+            base_url=os.getenv("OPENAI_API_BASE", "https://api.deepseek.com"),
+            api_key=os.getenv("OPENAI_API_KEY", "sk-xxx"))
     else:
         print("使用：本地LM Studio")
         return OpenAI(
@@ -190,8 +192,8 @@ if __name__ == "__main__":
     # demo_basic_chat()
     # demo_system_message()
     # demo_multi_turn()
-    demo_parameters()
-    # demo_response_format()
+    # demo_parameters()
+    demo_response_format()
     
     print("\n" + "=" * 60)
     print("✅ 演示完成！")
