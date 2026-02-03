@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 400" width="750" height="400">
+  <rect width="750" height="400" fill="#0f0f23"/>
+  <text x="375" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">AI代码助手 - 功能架构</text>
+  
+  <!-- IDE集成 -->
+  <rect x="30" y="70" width="200" height="140" rx="10" fill="#1a1a2e" stroke="#667eea" stroke-width="2"/>
+  <text x="130" y="100" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🖥️ IDE 插件</text>
+  <text x="130" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">VS Code Extension</text>
+  <text x="130" y="155" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">JetBrains Plugin</text>
+  <text x="130" y="180" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">实时代码补全</text>
+  <text x="130" y="200" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">内联建议</text>
+  
+  <!-- 核心功能 -->
+  <rect x="260" y="70" width="230" height="140" rx="10" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="375" y="100" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">⚡ 核心功能</text>
+  <text x="375" y="125" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 代码补全</text>
+  <text x="375" y="145" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 代码解释</text>
+  <text x="375" y="165" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ Bug修复</text>
+  <text x="375" y="185" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 代码重构</text>
+  <text x="375" y="205" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 单元测试生成</text>
+  
+  <!-- Agent能力 -->
+  <rect x="520" y="70" width="200" height="140" rx="10" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="620" y="100" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🤖 Agent 能力</text>
+  <text x="620" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">多文件编辑</text>
+  <text x="620" y="155" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">Shell命令执行</text>
+  <text x="620" y="180" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">项目级理解</text>
+  <text x="620" y="200" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">自主任务规划</text>
+  
+  <!-- 技术栈 -->
+  <rect x="100" y="240" width="550" height="140" rx="10" fill="#16213e" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="375" y="270" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🛠️ 技术栈</text>
+  
+  <rect x="130" y="290" width="100" height="70" rx="5" fill="#2d3436"/>
+  <text x="180" y="315" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="10">Tree-sitter</text>
+  <text x="180" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">代码解析</text>
+  
+  <rect x="250" y="290" width="100" height="70" rx="5" fill="#2d3436"/>
+  <text x="300" y="315" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="10">RAG</text>
+  <text x="300" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">代码知识库</text>
+  
+  <rect x="370" y="290" width="100" height="70" rx="5" fill="#2d3436"/>
+  <text x="420" y="315" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="10">LangGraph</text>
+  <text x="420" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">Agent编排</text>
+  
+  <rect x="490" y="290" width="100" height="70" rx="5" fill="#2d3436"/>
+  <text x="540" y="315" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">GPT-4/Claude</text>
+  <text x="540" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">代码模型</text>
+</svg>
+

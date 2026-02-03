@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 400" width="750" height="400">
+  <rect width="750" height="400" fill="#0f0f23"/>
+  <text x="375" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">企业级知识库系统架构</text>
+  
+  <!-- 接入层 -->
+  <rect x="200" y="60" width="350" height="50" rx="8" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="375" y="90" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="13" font-weight="bold">🌐 多端接入 (Web / App / API / 飞书 / 钉钉)</text>
+  
+  <!-- 网关层 -->
+  <rect x="200" y="130" width="350" height="45" rx="8" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="375" y="158" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="12" font-weight="bold">🔐 API网关 (认证 / 限流 / 路由)</text>
+  
+  <!-- 业务层 -->
+  <rect x="50" y="195" width="650" height="90" rx="10" fill="#16213e" stroke="#667eea" stroke-width="2"/>
+  <text x="375" y="220" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="13" font-weight="bold">📋 业务服务层</text>
+  
+  <rect x="70" y="235" width="120" height="35" rx="5" fill="#2d3436"/>
+  <text x="130" y="258" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">智能问答</text>
+  
+  <rect x="205" y="235" width="120" height="35" rx="5" fill="#2d3436"/>
+  <text x="265" y="258" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">文档管理</text>
+  
+  <rect x="340" y="235" width="120" height="35" rx="5" fill="#2d3436"/>
+  <text x="400" y="258" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">权限控制</text>
+  
+  <rect x="475" y="235" width="120" height="35" rx="5" fill="#2d3436"/>
+  <text x="535" y="258" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">审计日志</text>
+  
+  <!-- 数据层 -->
+  <rect x="50" y="305" width="650" height="75" rx="10" fill="#1a1a2e" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="375" y="330" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="13" font-weight="bold">💾 数据存储层</text>
+  
+  <text x="130" y="360" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">Milvus向量库</text>
+  <text x="265" y="360" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">MySQL元数据</text>
+  <text x="400" y="360" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">MinIO文件</text>
+  <text x="535" y="360" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">Redis缓存</text>
+  <text x="640" y="360" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">ES全文</text>
+</svg>
+

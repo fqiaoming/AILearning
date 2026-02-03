@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#0f0f23"/>
+  <text x="400" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">智能研发助手 - 系统架构</text>
+  
+  <!-- 用户层 -->
+  <rect x="300" y="55" width="200" height="50" rx="8" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="400" y="85" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="13" font-weight="bold">👤 开发者 / IDE插件</text>
+  
+  <!-- API层 -->
+  <rect x="250" y="130" width="300" height="50" rx="8" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="400" y="160" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="13" font-weight="bold">🔌 FastAPI 网关</text>
+  
+  <!-- 核心服务 -->
+  <rect x="50" y="210" width="700" height="120" rx="10" fill="#16213e" stroke="#667eea" stroke-width="2"/>
+  <text x="400" y="240" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🛠️ 核心服务层</text>
+  
+  <rect x="80" y="260" width="140" height="50" rx="5" fill="#2d3436"/>
+  <text x="150" y="290" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="11">代码理解</text>
+  
+  <rect x="240" y="260" width="140" height="50" rx="5" fill="#2d3436"/>
+  <text x="310" y="290" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="11">RAG知识库</text>
+  
+  <rect x="400" y="260" width="140" height="50" rx="5" fill="#2d3436"/>
+  <text x="470" y="290" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="11">Agent编排</text>
+  
+  <rect x="560" y="260" width="140" height="50" rx="5" fill="#2d3436"/>
+  <text x="630" y="290" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="11">代码生成</text>
+  
+  <!-- 基础设施 -->
+  <rect x="50" y="360" width="700" height="70" rx="10" fill="#1a1a2e" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="400" y="390" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📦 基础设施</text>
+  
+  <text x="150" y="415" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">向量数据库</text>
+  <text x="310" y="415" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">LLM API</text>
+  <text x="470" y="415" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">Redis缓存</text>
+  <text x="630" y="415" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">PostgreSQL</text>
+  
+  <!-- 连接线 -->
+  <line x1="400" y1="105" x2="400" y2="130" stroke="#64b5f6" stroke-width="2"/>
+  <line x1="400" y1="180" x2="400" y2="210" stroke="#64b5f6" stroke-width="2"/>
+  <line x1="400" y1="330" x2="400" y2="360" stroke="#64b5f6" stroke-width="2"/>
+</svg>
+
