@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 400" width="750" height="400">
+  <rect width="750" height="400" fill="#0f0f23"/>
+  <text x="375" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">模型部署方案对比</text>
+  
+  <!-- vLLM -->
+  <rect x="30" y="60" width="220" height="150" rx="10" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="140" y="90" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">⚡ vLLM</text>
+  <text x="140" y="115" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ PagedAttention</text>
+  <text x="140" y="135" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 高吞吐量</text>
+  <text x="140" y="155" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ OpenAI兼容API</text>
+  <text x="140" y="175" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">适合：生产环境</text>
+  <text x="140" y="195" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">吞吐比HF快24倍</text>
+  
+  <!-- TGI -->
+  <rect x="265" y="60" width="220" height="150" rx="10" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="375" y="90" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🤗 TGI</text>
+  <text x="375" y="115" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ HuggingFace官方</text>
+  <text x="375" y="135" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 支持Flash Attention</text>
+  <text x="375" y="155" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 量化支持完善</text>
+  <text x="375" y="175" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">适合：HF生态</text>
+  <text x="375" y="195" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">Docker一键部署</text>
+  
+  <!-- Ollama -->
+  <rect x="500" y="60" width="220" height="150" rx="10" fill="#1a1a2e" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="610" y="90" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🦙 Ollama</text>
+  <text x="610" y="115" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 极简安装</text>
+  <text x="610" y="135" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 本地运行</text>
+  <text x="610" y="155" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 丰富模型库</text>
+  <text x="610" y="175" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">适合：开发测试</text>
+  <text x="610" y="195" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">ollama run llama3</text>
+  
+  <!-- 部署架构 -->
+  <rect x="100" y="240" width="550" height="140" rx="10" fill="#16213e" stroke="#667eea" stroke-width="2"/>
+  <text x="375" y="270" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🏗️ 生产部署架构</text>
+  
+  <rect x="130" y="290" width="100" height="70" rx="5" fill="#2d3436"/>
+  <text x="180" y="320" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="10">负载均衡</text>
+  <text x="180" y="345" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">Nginx/K8s</text>
+  
+  <text x="250" y="325" fill="#64b5f6" font-family="Arial, sans-serif" font-size="16">→</text>
+  
+  <rect x="275" y="290" width="100" height="70" rx="5" fill="#2d3436"/>
+  <text x="325" y="320" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="10">API网关</text>
+  <text x="325" y="345" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">认证/限流</text>
+  
+  <text x="395" y="325" fill="#64b5f6" font-family="Arial, sans-serif" font-size="16">→</text>
+  
+  <rect x="420" y="290" width="100" height="70" rx="5" fill="#2d3436"/>
+  <text x="470" y="320" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="10">模型服务</text>
+  <text x="470" y="345" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">vLLM/TGI</text>
+  
+  <text x="540" y="325" fill="#64b5f6" font-family="Arial, sans-serif" font-size="16">→</text>
+  
+  <rect x="565" y="290" width="100" height="70" rx="5" fill="#2d3436"/>
+  <text x="615" y="320" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">GPU集群</text>
+  <text x="615" y="345" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">A100/H100</text>
+</svg>
+
