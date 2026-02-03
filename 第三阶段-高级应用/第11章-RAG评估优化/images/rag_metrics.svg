@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 400" width="750" height="400">
+  <rect width="750" height="400" fill="#0f0f23"/>
+  <text x="375" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">RAG 评估指标体系</text>
+  
+  <!-- 检索质量 -->
+  <rect x="30" y="60" width="220" height="150" rx="10" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="140" y="90" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🔍 检索质量</text>
+  <text x="140" y="120" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• 召回率 (Recall)</text>
+  <text x="140" y="145" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• 精确率 (Precision)</text>
+  <text x="140" y="170" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• MRR / NDCG</text>
+  <text x="140" y="195" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">评估检索的相关性</text>
+  
+  <!-- 生成质量 -->
+  <rect x="265" y="60" width="220" height="150" rx="10" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="375" y="90" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📝 生成质量</text>
+  <text x="375" y="120" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• 忠实度 (Faithfulness)</text>
+  <text x="375" y="145" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• 相关性 (Relevancy)</text>
+  <text x="375" y="170" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• 流畅度 (Fluency)</text>
+  <text x="375" y="195" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">评估回答的质量</text>
+  
+  <!-- 端到端 -->
+  <rect x="500" y="60" width="220" height="150" rx="10" fill="#1a1a2e" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="610" y="90" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🎯 端到端指标</text>
+  <text x="610" y="120" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• 回答准确率</text>
+  <text x="610" y="145" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• 用户满意度</text>
+  <text x="610" y="170" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">• 响应延迟</text>
+  <text x="610" y="195" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">评估整体效果</text>
+  
+  <!-- 评估工具 -->
+  <rect x="100" y="240" width="550" height="140" rx="10" fill="#16213e" stroke="#667eea" stroke-width="2"/>
+  <text x="375" y="270" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🛠️ 常用评估工具</text>
+  
+  <rect x="130" y="290" width="110" height="70" rx="5" fill="#2d3436"/>
+  <text x="185" y="315" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="11" font-weight="bold">RAGAS</text>
+  <text x="185" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">RAG专用框架</text>
+  
+  <rect x="260" y="290" width="110" height="70" rx="5" fill="#2d3436"/>
+  <text x="315" y="315" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="11" font-weight="bold">LangSmith</text>
+  <text x="315" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">可视化追踪</text>
+  
+  <rect x="390" y="290" width="110" height="70" rx="5" fill="#2d3436"/>
+  <text x="445" y="315" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="11" font-weight="bold">TruLens</text>
+  <text x="445" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">反馈评估</text>
+  
+  <rect x="520" y="290" width="110" height="70" rx="5" fill="#2d3436"/>
+  <text x="575" y="315" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="11" font-weight="bold">DeepEval</text>
+  <text x="575" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">LLM评估</text>
+</svg>
+

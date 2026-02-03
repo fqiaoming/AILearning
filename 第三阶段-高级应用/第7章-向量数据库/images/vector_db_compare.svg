@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380">
+  <rect width="800" height="380" fill="#0f0f23"/>
+  <text x="400" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">主流向量数据库对比</text>
+  
+  <!-- Chroma -->
+  <rect x="30" y="60" width="170" height="140" rx="10" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="115" y="90" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🎨 Chroma</text>
+  <text x="115" y="115" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 轻量易用</text>
+  <text x="115" y="135" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 本地嵌入式</text>
+  <text x="115" y="155" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 开源免费</text>
+  <text x="115" y="180" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">适合：学习/小项目</text>
+  
+  <!-- Pinecone -->
+  <rect x="220" y="60" width="170" height="140" rx="10" fill="#1a1a2e" stroke="#667eea" stroke-width="2"/>
+  <text x="305" y="90" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🌲 Pinecone</text>
+  <text x="305" y="115" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 全托管云服务</text>
+  <text x="305" y="135" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 高性能</text>
+  <text x="305" y="155" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="10">❌ 收费较贵</text>
+  <text x="305" y="180" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">适合：企业级应用</text>
+  
+  <!-- Milvus -->
+  <rect x="410" y="60" width="170" height="140" rx="10" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="495" y="90" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🚀 Milvus</text>
+  <text x="495" y="115" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 分布式架构</text>
+  <text x="495" y="135" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 高扩展性</text>
+  <text x="495" y="155" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="10">❌ 部署复杂</text>
+  <text x="495" y="180" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">适合：大规模生产</text>
+  
+  <!-- Qdrant -->
+  <rect x="600" y="60" width="170" height="140" rx="10" fill="#1a1a2e" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="685" y="90" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="14" font-weight="bold">⚡ Qdrant</text>
+  <text x="685" y="115" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ Rust高性能</text>
+  <text x="685" y="135" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 丰富过滤器</text>
+  <text x="685" y="155" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 云+自托管</text>
+  <text x="685" y="180" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">适合：中大型项目</text>
+  
+  <!-- Weaviate & FAISS -->
+  <rect x="125" y="220" width="170" height="140" rx="10" fill="#1a1a2e" stroke="#81c784" stroke-width="2"/>
+  <text x="210" y="250" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🧬 Weaviate</text>
+  <text x="210" y="275" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ GraphQL接口</text>
+  <text x="210" y="295" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 内置向量化</text>
+  <text x="210" y="315" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 模块化设计</text>
+  <text x="210" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">适合：语义搜索</text>
+  
+  <rect x="505" y="220" width="170" height="140" rx="10" fill="#1a1a2e" stroke="#64b5f6" stroke-width="2"/>
+  <text x="590" y="250" text-anchor="middle" fill="#64b5f6" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📚 FAISS</text>
+  <text x="590" y="275" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ Meta开源</text>
+  <text x="590" y="295" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 算法库</text>
+  <text x="590" y="315" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="10">❌ 非完整DB</text>
+  <text x="590" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">适合：研究/嵌入</text>
+</svg>
+

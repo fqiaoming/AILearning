@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 400" width="750" height="400">
+  <rect width="750" height="400" fill="#0f0f23"/>
+  <text x="375" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">GraphRAG 知识图谱增强检索</text>
+  
+  <!-- 知识图谱 -->
+  <rect x="30" y="60" width="300" height="200" rx="10" fill="#16213e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="180" y="90" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🕸️ 知识图谱</text>
+  
+  <!-- 节点和边 -->
+  <circle cx="100" cy="150" r="25" fill="#ff6b6b"/>
+  <text x="100" y="155" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9">实体A</text>
+  
+  <circle cx="180" cy="120" r="25" fill="#ffd93d"/>
+  <text x="180" y="125" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="9">实体B</text>
+  
+  <circle cx="260" cy="150" r="25" fill="#4ecdc4"/>
+  <text x="260" y="155" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9">实体C</text>
+  
+  <circle cx="140" cy="200" r="25" fill="#667eea"/>
+  <text x="140" y="205" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9">实体D</text>
+  
+  <circle cx="220" cy="200" r="25" fill="#81c784"/>
+  <text x="220" y="205" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9">实体E</text>
+  
+  <line x1="125" y1="140" x2="155" y2="130" stroke="#ffffff" stroke-width="2"/>
+  <line x1="205" y1="130" x2="235" y2="140" stroke="#ffffff" stroke-width="2"/>
+  <line x1="115" y1="170" x2="125" y2="185" stroke="#ffffff" stroke-width="2"/>
+  <line x1="165" y1="200" x2="195" y2="200" stroke="#ffffff" stroke-width="2"/>
+  <line x1="235" y1="175" x2="230" y2="185" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- 向量检索 -->
+  <rect x="420" y="60" width="300" height="200" rx="10" fill="#16213e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="570" y="90" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📊 向量检索</text>
+  
+  <!-- 向量点 -->
+  <circle cx="470" cy="140" r="8" fill="#ff6b6b"/>
+  <circle cx="520" cy="160" r="8" fill="#4ecdc4"/>
+  <circle cx="570" cy="130" r="8" fill="#ffd93d"/>
+  <circle cx="620" cy="180" r="8" fill="#667eea"/>
+  <circle cx="500" cy="200" r="8" fill="#81c784"/>
+  <circle cx="600" cy="220" r="8" fill="#a55eea"/>
+  
+  <circle cx="540" cy="175" r="12" fill="#ff6b6b" stroke="#ffffff" stroke-width="2"/>
+  <text x="540" y="250" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">查询向量</text>
+  
+  <!-- 融合箭头 -->
+  <path d="M 180 260 L 180 300 L 375 340" stroke="#64b5f6" stroke-width="2" fill="none"/>
+  <path d="M 570 260 L 570 300 L 375 340" stroke="#64b5f6" stroke-width="2" fill="none"/>
+  
+  <!-- 融合结果 -->
+  <rect x="250" y="310" width="250" height="70" rx="10" fill="#1a1a2e" stroke="#81c784" stroke-width="2"/>
+  <text x="375" y="340" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="13" font-weight="bold">🔗 GraphRAG 融合</text>
+  <text x="375" y="365" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">结构化推理 + 语义检索</text>
+</svg>
+

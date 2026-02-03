@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 400" width="750" height="400">
+  <rect width="750" height="400" fill="#0f0f23"/>
+  <text x="375" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">向量数据库检索原理</text>
+  
+  <!-- 左侧：文本转向量 -->
+  <rect x="30" y="70" width="200" height="140" rx="10" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="130" y="100" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📝 文本</text>
+  <text x="130" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">"什么是机器学习"</text>
+  <text x="130" y="160" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="11">↓ Embedding</text>
+  <text x="130" y="190" text-anchor="middle" fill="#81c784" font-family="Courier, monospace" font-size="9">[0.12, -0.45, 0.78, ...]</text>
+  
+  <!-- 中间：向量空间 -->
+  <rect x="270" y="70" width="210" height="300" rx="10" fill="#16213e" stroke="#667eea" stroke-width="2"/>
+  <text x="375" y="100" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🌐 向量空间</text>
+  
+  <!-- 向量点 -->
+  <circle cx="320" cy="150" r="8" fill="#ff6b6b"/>
+  <text x="320" y="175" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">文档A</text>
+  
+  <circle cx="380" cy="180" r="8" fill="#4ecdc4"/>
+  <text x="380" y="205" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">文档B</text>
+  
+  <circle cx="420" cy="140" r="8" fill="#ffd93d"/>
+  <text x="420" y="165" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">文档C</text>
+  
+  <circle cx="350" cy="250" r="8" fill="#81c784"/>
+  <text x="350" y="275" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">文档D</text>
+  
+  <circle cx="400" cy="300" r="8" fill="#a55eea"/>
+  <text x="400" y="325" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">文档E</text>
+  
+  <!-- 查询向量 -->
+  <circle cx="375" cy="220" r="12" fill="#ff6b6b" stroke="#ffffff" stroke-width="2"/>
+  <text x="375" y="355" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="10">🔍 查询向量</text>
+  
+  <!-- 相似度连线 -->
+  <line x1="375" y1="220" x2="380" y2="180" stroke="#64b5f6" stroke-width="2" stroke-dasharray="3,3"/>
+  <line x1="375" y1="220" x2="350" y2="250" stroke="#64b5f6" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- 右侧：相似度算法 -->
+  <rect x="520" y="70" width="200" height="300" rx="10" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="620" y="100" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📐 相似度算法</text>
+  
+  <rect x="540" y="120" width="160" height="50" rx="5" fill="#2d3436"/>
+  <text x="620" y="145" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="11">余弦相似度</text>
+  <text x="620" y="162" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">cosine similarity</text>
+  
+  <rect x="540" y="180" width="160" height="50" rx="5" fill="#2d3436"/>
+  <text x="620" y="205" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="11">欧氏距离</text>
+  <text x="620" y="222" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">L2 distance</text>
+  
+  <rect x="540" y="240" width="160" height="50" rx="5" fill="#2d3436"/>
+  <text x="620" y="265" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="11">内积</text>
+  <text x="620" y="282" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">dot product</text>
+  
+  <rect x="540" y="300" width="160" height="50" rx="5" fill="#2d3436"/>
+  <text x="620" y="325" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="11">HNSW索引</text>
+  <text x="620" y="342" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">近似最近邻</text>
+</svg>
+
