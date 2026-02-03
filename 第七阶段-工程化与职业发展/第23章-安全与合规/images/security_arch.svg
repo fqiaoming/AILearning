@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 400" width="750" height="400">
+  <rect width="750" height="400" fill="#0f0f23"/>
+  <text x="375" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">AI应用安全架构</text>
+  
+  <!-- 输入安全 -->
+  <rect x="30" y="70" width="210" height="140" rx="10" fill="#1a1a2e" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="135" y="100" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🛡️ 输入安全</text>
+  <text x="135" y="125" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• Prompt注入防护</text>
+  <text x="135" y="145" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• 输入验证清洗</text>
+  <text x="135" y="165" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• 敏感信息脱敏</text>
+  <text x="135" y="185" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• 长度限制</text>
+  
+  <!-- 访问控制 -->
+  <rect x="270" y="70" width="210" height="140" rx="10" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="375" y="100" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🔐 访问控制</text>
+  <text x="375" y="125" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• API Key管理</text>
+  <text x="375" y="145" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• JWT认证</text>
+  <text x="375" y="165" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• RBAC权限</text>
+  <text x="375" y="185" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• 限流熔断</text>
+  
+  <!-- 输出安全 -->
+  <rect x="510" y="70" width="210" height="140" rx="10" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="615" y="100" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📤 输出安全</text>
+  <text x="615" y="125" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• 内容过滤</text>
+  <text x="615" y="145" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• 有害内容检测</text>
+  <text x="615" y="165" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• 水印追踪</text>
+  <text x="615" y="185" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• 版权保护</text>
+  
+  <!-- 合规要求 -->
+  <rect x="100" y="240" width="550" height="140" rx="10" fill="#16213e" stroke="#667eea" stroke-width="2"/>
+  <text x="375" y="270" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📋 合规要求</text>
+  
+  <rect x="130" y="290" width="130" height="70" rx="5" fill="#2d3436"/>
+  <text x="195" y="315" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="11" font-weight="bold">GDPR</text>
+  <text x="195" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">数据保护</text>
+  
+  <rect x="280" y="290" width="130" height="70" rx="5" fill="#2d3436"/>
+  <text x="345" y="315" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="11" font-weight="bold">等保2.0</text>
+  <text x="345" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">国内合规</text>
+  
+  <rect x="430" y="290" width="130" height="70" rx="5" fill="#2d3436"/>
+  <text x="495" y="315" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="11" font-weight="bold">ISO 27001</text>
+  <text x="495" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">信息安全</text>
+</svg>
+

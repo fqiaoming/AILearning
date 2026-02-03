@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="800" height="350">
+  <defs>
+    <marker id="arrowCI" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64b5f6"/>
+    </marker>
+  </defs>
+  
+  <rect width="800" height="350" fill="#0f0f23"/>
+  <text x="400" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">AI应用 CI/CD 流水线</text>
+  
+  <!-- 代码提交 -->
+  <rect x="30" y="80" width="100" height="70" rx="10" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="80" y="110" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="11" font-weight="bold">📝 代码</text>
+  <text x="80" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9">Git Push</text>
+  
+  <line x1="130" y1="115" x2="160" y2="115" stroke="#64b5f6" stroke-width="2" marker-end="url(#arrowCI)"/>
+  
+  <!-- 构建 -->
+  <rect x="170" y="80" width="100" height="70" rx="10" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="220" y="110" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="11" font-weight="bold">🔨 构建</text>
+  <text x="220" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9">Docker Build</text>
+  
+  <line x1="270" y1="115" x2="300" y2="115" stroke="#64b5f6" stroke-width="2" marker-end="url(#arrowCI)"/>
+  
+  <!-- 测试 -->
+  <rect x="310" y="80" width="100" height="70" rx="10" fill="#1a1a2e" stroke="#667eea" stroke-width="2"/>
+  <text x="360" y="110" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="11" font-weight="bold">🧪 测试</text>
+  <text x="360" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9">pytest / eval</text>
+  
+  <line x1="410" y1="115" x2="440" y2="115" stroke="#64b5f6" stroke-width="2" marker-end="url(#arrowCI)"/>
+  
+  <!-- 模型评估 -->
+  <rect x="450" y="80" width="100" height="70" rx="10" fill="#1a1a2e" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="500" y="110" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="11" font-weight="bold">📊 评估</text>
+  <text x="500" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9">模型质量</text>
+  
+  <line x1="550" y1="115" x2="580" y2="115" stroke="#64b5f6" stroke-width="2" marker-end="url(#arrowCI)"/>
+  
+  <!-- 部署 -->
+  <rect x="590" y="80" width="100" height="70" rx="10" fill="#1a1a2e" stroke="#81c784" stroke-width="2"/>
+  <text x="640" y="110" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="11" font-weight="bold">🚀 部署</text>
+  <text x="640" y="130" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="9">K8s/Cloud</text>
+  
+  <line x1="690" y1="115" x2="720" y2="115" stroke="#64b5f6" stroke-width="2" marker-end="url(#arrowCI)"/>
+  
+  <!-- 监控 -->
+  <rect x="730" y="80" width="50" height="70" rx="10" fill="#16213e" stroke="#a55eea" stroke-width="2"/>
+  <text x="755" y="120" text-anchor="middle" fill="#a55eea" font-family="Arial, sans-serif" font-size="9">📈</text>
+  
+  <!-- 工具栈 -->
+  <rect x="100" y="190" width="600" height="140" rx="10" fill="#16213e" stroke="#667eea" stroke-width="2"/>
+  <text x="400" y="220" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🛠️ 推荐工具栈</text>
+  
+  <rect x="130" y="240" width="110" height="70" rx="5" fill="#2d3436"/>
+  <text x="185" y="265" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="10">GitHub Actions</text>
+  <text x="185" y="290" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">CI/CD自动化</text>
+  
+  <rect x="260" y="240" width="110" height="70" rx="5" fill="#2d3436"/>
+  <text x="315" y="265" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="10">Docker</text>
+  <text x="315" y="290" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">容器化</text>
+  
+  <rect x="390" y="240" width="110" height="70" rx="5" fill="#2d3436"/>
+  <text x="445" y="265" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="10">Kubernetes</text>
+  <text x="445" y="290" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">编排调度</text>
+  
+  <rect x="520" y="240" width="110" height="70" rx="5" fill="#2d3436"/>
+  <text x="575" y="265" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">Prometheus</text>
+  <text x="575" y="290" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">监控告警</text>
+</svg>
+

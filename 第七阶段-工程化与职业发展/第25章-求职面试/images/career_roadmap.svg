@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <rect width="800" height="400" fill="#0f0f23"/>
+  <text x="400" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">AI工程师技能图谱</text>
+  
+  <!-- 基础技能 -->
+  <rect x="30" y="60" width="230" height="150" rx="10" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="145" y="90" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🎯 基础技能</text>
+  <text x="145" y="115" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• Python精通</text>
+  <text x="145" y="135" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• 数据结构与算法</text>
+  <text x="145" y="155" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• Git版本控制</text>
+  <text x="145" y="175" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• Linux基础</text>
+  <text x="145" y="195" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• SQL数据库</text>
+  
+  <!-- AI核心 -->
+  <rect x="285" y="60" width="230" height="150" rx="10" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="400" y="90" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🤖 AI核心技能</text>
+  <text x="400" y="115" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• LLM原理与应用</text>
+  <text x="400" y="135" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• Prompt Engineering</text>
+  <text x="400" y="155" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• RAG系统开发</text>
+  <text x="400" y="175" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• Agent智能体</text>
+  <text x="400" y="195" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• 模型微调</text>
+  
+  <!-- 工程能力 -->
+  <rect x="540" y="60" width="230" height="150" rx="10" fill="#1a1a2e" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="655" y="90" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🛠️ 工程能力</text>
+  <text x="655" y="115" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• FastAPI后端</text>
+  <text x="655" y="135" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• Docker容器化</text>
+  <text x="655" y="155" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• 云服务部署</text>
+  <text x="655" y="175" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• 监控告警</text>
+  <text x="655" y="195" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10">• 性能优化</text>
+  
+  <!-- 软技能 -->
+  <rect x="150" y="240" width="500" height="140" rx="10" fill="#16213e" stroke="#667eea" stroke-width="2"/>
+  <text x="400" y="270" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="14" font-weight="bold">💼 软技能与职业发展</text>
+  
+  <rect x="180" y="290" width="120" height="70" rx="5" fill="#2d3436"/>
+  <text x="240" y="315" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="10">技术文档</text>
+  <text x="240" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">表达沟通</text>
+  
+  <rect x="320" y="290" width="120" height="70" rx="5" fill="#2d3436"/>
+  <text x="380" y="315" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="10">项目管理</text>
+  <text x="380" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">需求分析</text>
+  
+  <rect x="460" y="290" width="120" height="70" rx="5" fill="#2d3436"/>
+  <text x="520" y="315" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">持续学习</text>
+  <text x="520" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="8">技术追踪</text>
+</svg>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 380" width="750" height="380">
+  <rect width="750" height="380" fill="#0f0f23"/>
+  <text x="375" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">高性能推理框架对比</text>
+  
+  <!-- vLLM -->
+  <rect x="30" y="70" width="210" height="130" rx="10" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="135" y="100" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">⚡ vLLM</text>
+  <text x="135" y="125" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ PagedAttention</text>
+  <text x="135" y="145" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ Continuous Batching</text>
+  <text x="135" y="165" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 高吞吐量</text>
+  <text x="135" y="185" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">生产首选</text>
+  
+  <!-- SGLang -->
+  <rect x="270" y="70" width="210" height="130" rx="10" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="375" y="100" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🚀 SGLang</text>
+  <text x="375" y="125" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ RadixAttention</text>
+  <text x="375" y="145" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 结构化输出优化</text>
+  <text x="375" y="165" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 前缀缓存</text>
+  <text x="375" y="185" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">新一代框架</text>
+  
+  <!-- TensorRT-LLM -->
+  <rect x="510" y="70" width="210" height="130" rx="10" fill="#1a1a2e" stroke="#81c784" stroke-width="2"/>
+  <text x="615" y="100" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🔥 TensorRT-LLM</text>
+  <text x="615" y="125" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ NVIDIA官方</text>
+  <text x="615" y="145" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 极致优化</text>
+  <text x="615" y="165" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="10">❌ 配置复杂</text>
+  <text x="615" y="185" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">极致性能场景</text>
+  
+  <!-- 性能对比 -->
+  <rect x="100" y="230" width="550" height="130" rx="10" fill="#16213e" stroke="#667eea" stroke-width="2"/>
+  <text x="375" y="260" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📊 性能指标 (相对HF Transformers)</text>
+  
+  <text x="200" y="295" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="12">vLLM: 24x 吞吐</text>
+  <text x="375" y="295" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="12">SGLang: 30x+ 吞吐</text>
+  <text x="550" y="295" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="12">TRT-LLM: 40x+ 吞吐</text>
+  
+  <text x="375" y="340" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="10">💡 选择建议：开发测试用Ollama，生产部署用vLLM，极致性能用TensorRT-LLM</text>
+</svg>
+
