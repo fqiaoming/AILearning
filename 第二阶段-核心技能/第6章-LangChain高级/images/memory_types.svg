@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 400" width="750" height="400">
+  <rect width="750" height="400" fill="#0f0f23"/>
+  <text x="375" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">LangChain Memory 类型对比</text>
+  
+  <!-- Buffer Memory -->
+  <rect x="30" y="60" width="220" height="150" rx="10" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="140" y="90" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📋 ConversationBuffer</text>
+  <text x="140" y="115" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">保存完整对话历史</text>
+  <text x="140" y="140" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 信息完整</text>
+  <text x="140" y="160" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="10">❌ Token消耗大</text>
+  <text x="140" y="185" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">适合：短对话场景</text>
+  
+  <!-- Window Memory -->
+  <rect x="265" y="60" width="220" height="150" rx="10" fill="#1a1a2e" stroke="#ffd93d" stroke-width="2"/>
+  <text x="375" y="90" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🪟 ConversationWindow</text>
+  <text x="375" y="115" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">只保留最近N轮对话</text>
+  <text x="375" y="140" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ Token可控</text>
+  <text x="375" y="160" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="10">❌ 丢失早期信息</text>
+  <text x="375" y="185" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">适合：一般聊天场景</text>
+  
+  <!-- Summary Memory -->
+  <rect x="500" y="60" width="220" height="150" rx="10" fill="#1a1a2e" stroke="#667eea" stroke-width="2"/>
+  <text x="610" y="90" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📝 ConversationSummary</text>
+  <text x="610" y="115" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">LLM摘要历史对话</text>
+  <text x="610" y="140" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 保留关键信息</text>
+  <text x="610" y="160" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="10">❌ 额外API调用</text>
+  <text x="610" y="185" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">适合：长对话场景</text>
+  
+  <!-- Token Buffer -->
+  <rect x="100" y="240" width="220" height="140" rx="10" fill="#1a1a2e" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="210" y="270" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📊 TokenBuffer</text>
+  <text x="210" y="295" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">按Token数量限制</text>
+  <text x="210" y="320" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 精确控制成本</text>
+  <text x="210" y="345" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">适合：成本敏感场景</text>
+  
+  <!-- Vector Store -->
+  <rect x="430" y="240" width="220" height="140" rx="10" fill="#1a1a2e" stroke="#81c784" stroke-width="2"/>
+  <text x="540" y="270" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🔍 VectorStore</text>
+  <text x="540" y="295" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">向量检索相关记忆</text>
+  <text x="540" y="320" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="10">✅ 语义检索精准</text>
+  <text x="540" y="345" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">适合：知识库问答</text>
+</svg>
+

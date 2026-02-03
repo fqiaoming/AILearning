@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400">
+  <rect width="700" height="400" fill="#0f0f23"/>
+  <text x="350" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">API 错误处理与重试策略</text>
+  
+  <!-- 常见错误 -->
+  <rect x="30" y="60" width="300" height="160" rx="10" fill="#1a1a2e" stroke="#ff6b6b" stroke-width="2"/>
+  <text x="180" y="90" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="14" font-weight="bold">⚠️ 常见错误类型</text>
+  
+  <rect x="50" y="105" width="260" height="25" rx="3" fill="#2d3436"/>
+  <text x="180" y="122" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="10">429 Rate Limit - 请求过多</text>
+  
+  <rect x="50" y="135" width="260" height="25" rx="3" fill="#2d3436"/>
+  <text x="180" y="152" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="10">500/502/503 - 服务器错误</text>
+  
+  <rect x="50" y="165" width="260" height="25" rx="3" fill="#2d3436"/>
+  <text x="180" y="182" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="10">Timeout - 请求超时</text>
+  
+  <rect x="50" y="195" width="260" height="25" rx="3" fill="#2d3436"/>
+  <text x="180" y="212" text-anchor="middle" fill="#ffd93d" font-family="Arial, sans-serif" font-size="10">401/403 - 认证/权限错误</text>
+  
+  <!-- 重试策略 -->
+  <rect x="370" y="60" width="300" height="160" rx="10" fill="#1a1a2e" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="520" y="90" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🔄 指数退避重试</text>
+  
+  <text x="520" y="120" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">第1次重试: 等待 1s</text>
+  <text x="520" y="145" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">第2次重试: 等待 2s</text>
+  <text x="520" y="170" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="11">第3次重试: 等待 4s</text>
+  <text x="520" y="195" text-anchor="middle" fill="#81c784" font-family="Arial, sans-serif" font-size="11">+ 随机抖动 (jitter)</text>
+  
+  <!-- 代码示例 -->
+  <rect x="30" y="240" width="640" height="140" rx="10" fill="#16213e" stroke="#667eea" stroke-width="2"/>
+  <text x="350" y="270" text-anchor="middle" fill="#667eea" font-family="Arial, sans-serif" font-size="14" font-weight="bold">💻 推荐工具: tenacity 库</text>
+  
+  <text x="60" y="300" fill="#81c784" font-family="Courier New, monospace" font-size="11">@retry(</text>
+  <text x="60" y="320" fill="#ffd93d" font-family="Courier New, monospace" font-size="11">    wait=wait_exponential(min=1, max=60),</text>
+  <text x="60" y="340" fill="#ffd93d" font-family="Courier New, monospace" font-size="11">    stop=stop_after_attempt(3),</text>
+  <text x="60" y="360" fill="#ffd93d" font-family="Courier New, monospace" font-size="11">    retry=retry_if_exception_type(RateLimitError)</text>
+  <text x="60" y="375" fill="#81c784" font-family="Courier New, monospace" font-size="11">)</text>
+</svg>
+
