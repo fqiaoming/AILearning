@@ -1,0 +1,17 @@
+[
+    {"input": "我的订单什么时候到？", "expected": "order_query"},
+    {"input": "订单号是123456，帮我查一下物流", "expected": "order_query"},
+    {"input": "快递到哪了", "expected": "order_query"},
+    {"input": "我要退货", "expected": "refund"},
+    {"input": "这个产品不想要了，能退吗？", "expected": "refund"},
+    {"input": "申请退款", "expected": "refund"},
+    {"input": "这个手机支持5G吗？", "expected": "product_inquiry"},
+    {"input": "有什么颜色可以选？", "expected": "product_inquiry"},
+    {"input": "这个电脑配置怎么样", "expected": "product_inquiry"},
+    {"input": "你们服务太差了！", "expected": "complaint"},
+    {"input": "我要投诉你们！", "expected": "complaint"},
+    {"input": "忘记密码了", "expected": "account"},
+    {"input": "怎么修改手机号", "expected": "account"},
+    {"input": "今天天气真好", "expected": "other"},
+    {"input": "你好", "expected": "other"}
+]

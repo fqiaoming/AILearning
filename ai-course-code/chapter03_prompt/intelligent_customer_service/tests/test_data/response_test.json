@@ -1,0 +1,32 @@
+[
+    {
+        "input": "我的订单什么时候到？",
+        "intent": "order_query",
+        "expected_keywords": ["订单", "查询", "物流"],
+        "forbidden_words": ["不知道", "无法"]
+    },
+    {
+        "input": "我要退货，东西有质量问题",
+        "intent": "refund",
+        "expected_keywords": ["退", "抱歉", "流程"],
+        "forbidden_words": ["不行", "不能"]
+    },
+    {
+        "input": "这个手机电池容量多大？",
+        "intent": "product_inquiry",
+        "expected_keywords": ["电池", "详情"],
+        "forbidden_words": ["不清楚"]
+    },
+    {
+        "input": "你们太过分了，发的什么破东西！",
+        "intent": "complaint",
+        "expected_keywords": ["抱歉", "理解"],
+        "forbidden_words": ["活该", "自己"]
+    },
+    {
+        "input": "密码忘了怎么找回",
+        "intent": "account",
+        "expected_keywords": ["密码", "找回"],
+        "forbidden_words": ["不管"]
+    }
+]
